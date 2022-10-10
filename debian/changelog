@@ -1,0 +1,352 @@
+libextutils-cbuilder-perl (0.280236-1) unstable; urgency=medium
+
+  * Import upstream version 0.280236.
+  * Update debian/upstream/metadata.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 18 Feb 2021 17:53:40 +0100
+
+libextutils-cbuilder-perl (0.280235-1) unstable; urgency=medium
+
+  * Import upstream version 0.280235.
+  * Update Upstream-Contact.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 01 Nov 2020 16:54:14 +0100
+
+libextutils-cbuilder-perl (0.280234-1) unstable; urgency=medium
+
+  * Import upstream version 0.280234.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 24 Jan 2020 14:58:55 +0100
+
+libextutils-cbuilder-perl (0.280231-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Laurent Baillet ]
+  * fix lintian file-contains-trailing-whitespace warning
+
+  [ gregor herrmann ]
+  * Import upstream version 0.280231.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.4.0.
+  * Drop unneeded version constraints from (build) dependencies.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Aug 2019 16:11:15 +0200
+
+libextutils-cbuilder-perl (0.280230-1) unstable; urgency=medium
+
+  * New upstream version 0.280230
+  * declare conformance with Policy 4.1.2 (no changes)
+
+ -- Damyan Ivanov <dmn@debian.org>  Mon, 11 Dec 2017 19:54:02 +0000
+
+libextutils-cbuilder-perl (0.280226-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: change GitHub/CPAN URL(s) to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Nathan Handler from Uploaders. Thanks for your work!
+
+  [ Niko Tyni ]
+  * Import upstream version 0.280226.
+    + installable with Perl 5.26. (Closes: #839207)
+
+ -- Niko Tyni <ntyni@debian.org>  Tue, 22 Aug 2017 00:08:44 +0300
+
+libextutils-cbuilder-perl (0.280224-1) unstable; urgency=medium
+
+  * Import upstream version 0.280224.
+  * Update years of packaging copyright.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 17 Oct 2015 23:30:54 +0200
+
+libextutils-cbuilder-perl (0.280223-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.280223
+    Closes:  #788266 -- uninstallable with perl 5.22
+  * bump years of upstream copyright
+
+ -- Damyan Ivanov <dmn@debian.org>  Fri, 12 Jun 2015 11:02:53 +0000
+
+libextutils-cbuilder-perl (0.280220-1) unstable; urgency=medium
+
+  * Imported upstream version 0.280220
+  * Drop use-config.patch, merged upstream.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 08 Oct 2014 22:32:25 +0200
+
+libextutils-cbuilder-perl (0.280219-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Angel Abad ]
+  * Imported Upstream version 0.280217
+  * debian/copyright: Update debian years.
+
+  [ gregor herrmann ]
+  * Add debian/upstream/metadata
+
+  * Imported upstream version 0.280219
+  * Update years of packaging copyright.
+  * Drop alternative (build) dependency on libperl-ostype-perl.
+    It's not a real package anymore but provided by perl-modules, and we
+    already have the correct versioned dependency on perl.
+  * Add patch to add missing 'use Config;' in Android module.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Sep 2014 16:49:31 +0200
+
+libextutils-cbuilder-perl (0.280216-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * Install CONTRIBUTING file.
+  * Strip trailing slash from metacpan URLs.
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.280216
+  * Bump years of upstream copyright
+  * Add README.patching to installed docs
+  * Declare compliance with Debian Policy 3.9.5
+
+ -- Florian Schlichting <fsfs@debian.org>  Sat, 08 Mar 2014 21:13:33 +0100
+
+libextutils-cbuilder-perl (0.280212-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Nathan Handler ]
+  * Email change: Nathan Handler -> nhandler@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.280212
+  * Bump years of upstream copyright
+  * Bump Standards-Version to 3.9.4 (no change)
+  * Both depend and build-depend on Perl::OSType 1
+
+ -- Florian Schlichting <fsfs@debian.org>  Mon, 16 Sep 2013 12:40:13 +0200
+
+libextutils-cbuilder-perl (0.280205-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Angel Abad ]
+  * Email change: Angel Abad -> angel@debian.org
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Update debian/copyright format as in Debian Policy 3.9.3
+  * Bump Standards-Version to 3.9.3 (no changes needed)
+  * Bump debhelper compat level to 8
+  * Update upstream copyright years
+  * Add libperl-ostype-perl to depends
+  * Drop 0001-Append-CFLAGS-and-LDFLAGS-to-their-Config.pm-counter.patch
+    (merged upstream)
+  * Remove libextutils-cbuilder-perl.docs (lists a file no more present)
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Thu, 23 Feb 2012 11:40:45 +0100
+
+libextutils-cbuilder-perl (0.280202-2) unstable; urgency=low
+
+  * Add patch to append CFLAGS and LDFLAGS to their Config.pm
+    counterparts rather than overriding them (Closes: #624460)
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sat, 30 Apr 2011 20:38:51 +0100
+
+libextutils-cbuilder-perl (0.280202-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Mon, 24 Jan 2011 01:58:35 +0100
+
+libextutils-cbuilder-perl (0.280201-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/libextutils-cbuilder-perl.docs: Add README.patching file
+  * debian/copyright: Update copyright years
+
+ -- Angel Abad <angelabad@gmail.com>  Sat, 22 Jan 2011 14:36:00 +0100
+
+libextutils-cbuilder-perl (0.2802-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Wed, 15 Dec 2010 18:04:28 +0100
+
+libextutils-cbuilder-perl (0.2801-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to uploaders
+  * debian/copyright: Update license information
+  * Bump Standards-Version to 3.9.1 (no changes)
+  * Switch to dpkg-source format 3.0 (quilt)
+
+ -- Angel Abad <angelabad@gmail.com>  Sat, 11 Dec 2010 14:14:30 +0100
+
+libextutils-cbuilder-perl (0.2701-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-Version 3.8.4 (no changes)
+  * Update to DEP5 copyright format
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Tue, 16 Feb 2010 15:48:28 -0500
+
+libextutils-cbuilder-perl (0.2700-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+
+  [ Ryan Niebur ]
+  * Update jawnsy's email address
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Fri, 30 Oct 2009 19:14:44 -0400
+
+libextutils-cbuilder-perl (0.2603-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+    Closes: #542016 -- new upstream release, version numbering
+
+  [ Damyan Ivanov ]
+  * use three-line DH7 debian/rules
+  * drop the version fro the 'perl' build dependency
+  * watch: force four digits after the dot
+  * Standards-Version: 3.8.3 (no changes needed)
+
+ -- Damyan Ivanov <dmn@debian.org>  Fri, 21 Aug 2009 17:11:44 +0300
+
+libextutils-cbuilder-perl (0.26-1) unstable; urgency=low
+
+  * New upstream release
+    + More test coverage
+    + Tests code that checks if there's a compiler
+    + Now falls back to compiling in the current working directory
+  * Added /me to Uploaders and d/copyright
+  * Rewrote the control description slightly
+  * It looks like the Makefile.PL is a traditional one, so Module::Build is not
+    strictly necessary
+
+ -- Jonathan Yu <frequency@cpan.org>  Mon, 29 Jun 2009 18:10:28 -0400
+
+libextutils-cbuilder-perl (0.25-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * Remove Florian Ragwitz from Uploaders (closes: #523253).
+
+  [ Nathan Handler ]
+  * New upstream release
+  * debian/watch:
+    - Update to ignore development releases.
+  * debian/control:
+    - Add myself to list of Uploaders
+    - Bump Standards-Version to 3.8.2
+  * debian/copyright:
+    - Update years for debian/* copyright
+    - Use <>'s to surround email addresses
+
+  [ gregor herrmann ]
+  * debian/control:
+    - add perl-modules (>= 5.10) as an alternative build dependency on
+      libmodule-build-perl
+    - make short description a noun phrase
+
+ -- Nathan Handler <nhandler@ubuntu.com>  Mon, 29 Jun 2009 02:38:02 +0000
+
+libextutils-cbuilder-perl (0.24-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove patch 10_fix-gnukfreebsd-hurd.patch, included upstream. Remove
+    quilt framework.
+  * Refresh debian/rules, no functional changes.
+  * debian/copyright: switch to new format.
+  * Add /me to Uploaders.
+  * debian/control: mention module name in long description.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 25 Aug 2008 00:23:53 -0300
+
+libextutils-cbuilder-perl (0.23-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * Take over for the Debian Perl Group with maintainer's permission
+    (http://lists.debian.org/debian-perl/2008/06/msg00039.html)
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Changed:
+    Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Florian Ragwitz
+    <rafl@debian.org>); Florian Ragwitz <rafl@debian.org> moved to
+    Uploaders.
+  * Add debian/watch.
+
+  [ Damyan Ivanov ]
+  * New upstream release
+    Closes: #480401 -- uninstallable, perl-modules has a newer version
+  * replace debian/rules with a three-liner thanks to debhelper 7
+  * add myself to Uploaders
+  * debian/copyright
+    + use dist-based upstream URL
+    + add copyright statement
+    + note DPG is the current maintainer
+  * package now conforms to Policy 3.8.0
+  * add 10_fix-gnukfreebsd-hurd.patch by Aurelien Jarno and Samuel Thibault
+    adding support for GNU/kfreebsd and the Hurd. Closes: #480400
+    + add quilt to debian/rules and debian/control
+    + add README.source
+
+ -- Damyan Ivanov <dmn@debian.org>  Mon, 16 Jun 2008 11:58:27 +0300
+
+libextutils-cbuilder-perl (0.18-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump up Standards-Version to 3.7.2 (no changes).
+  * Use DH_COMPAT 5.
+
+ -- Florian Ragwitz <rafl@debian.org>  Thu, 10 Aug 2006 04:05:53 +0200
+
+libextutils-cbuilder-perl (0.15-1) unstable; urgency=low
+
+  * New upstream release (Closes: #329535).
+  * New Maintainer with acknowledgement from the former one.
+  * Bumped up Standards-Version.
+
+ -- Florian Ragwitz <rafl@debian.org>  Fri, 27 Jan 2006 03:47:12 +0100
+
+libextutils-cbuilder-perl (0.11-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Chip Salzenberg <chip@debian.org>  Tue,  5 Apr 2005 08:29:16 -0400

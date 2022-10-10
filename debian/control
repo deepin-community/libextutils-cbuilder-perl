@@ -1,0 +1,30 @@
+Source: libextutils-cbuilder-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>,
+           gregor herrmann <gregoa@debian.org>,
+           Angel Abad <angel@debian.org>,
+           Dominic Hargreaves <dom@earth.li>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: perl
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libextutils-cbuilder-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libextutils-cbuilder-perl.git
+Homepage: https://metacpan.org/release/ExtUtils-CBuilder
+Rules-Requires-Root: no
+
+Package: libextutils-cbuilder-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: module to compile and link C code for Perl modules
+ ExtUtils::CBuilder is a utility to portably build C code by invoking the
+ appropriate compilers and linkers. It provides a cross-platform way to build
+ Perl XS modules, which contain C code that needs to be built and dynamically
+ linked to Perl.
+ .
+ Though motivated by the Module::Build project, it may be useful for other
+ purposes as well. However, this module is not intended as a general interface
+ for all C building needs.
