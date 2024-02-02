@@ -1,3 +1,10 @@
+libextutils-cbuilder-perl (0.280236-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libextutils-cbuilder-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 06:06:51 +0100
+
 libextutils-cbuilder-perl (0.280236-1) unstable; urgency=medium
 
   * Import upstream version 0.280236.
