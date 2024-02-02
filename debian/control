@@ -19,6 +19,7 @@ Package: libextutils-cbuilder-perl
 Architecture: all
 Depends: ${misc:Depends},
          ${perl:Depends}
+Multi-Arch: foreign
 Description: module to compile and link C code for Perl modules
  ExtUtils::CBuilder is a utility to portably build C code by invoking the
  appropriate compilers and linkers. It provides a cross-platform way to build
